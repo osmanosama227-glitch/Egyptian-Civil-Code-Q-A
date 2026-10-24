@@ -1,0 +1,15 @@
+# Needs a CUDA GPU. Tested workflow: Google Colab T4.
+# Install unsloth first; it pins compatible torch / transformers / trl / peft versions.
+unsloth
+streamlit
+sentence-transformers
+rank_bm25
+python-docx
+pymupdf
+rouge_score
+nltk
+pandas
+numpy
+# Notebook 0 only (QA generation with Qwen2.5-7B-Instruct):
+accelerate
+bitsandbytes

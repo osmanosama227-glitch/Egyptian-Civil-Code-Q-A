@@ -1,0 +1,20 @@
+# Model artifacts (host on Hugging Face instead; GitHub limit is 100 MB per file)
+*.zip
+*.safetensors
+*.pt
+*.bin
+egyptian_lora_model/
+
+# Generated / local files
+validation_log.csv
+qa_progress.jsonl
+*.log
+cloudflared
+__pycache__/
+.ipynb_checkpoints/
+.env
+.DS_Store
+
+# Data: add only after checking source licenses
+data/*
+!data/.gitkeep
